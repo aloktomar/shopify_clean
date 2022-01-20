@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+ {%- render 'layouthub_header' -%}
   <title>{{ page_title }}</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -38,7 +39,8 @@
   {% endif %}
 
   <main role="main">
-    {{ content_for_layout }}
+    <!--LayoutHub-Workspace-Start-->{{ content_for_layout }}<!--LayoutHub-Workspace-End-->
   </main>
-</body>
+{% include 'social-head-common' %}{%- render 'layouthub_footer' -%} 
+ </body>
 </html>
