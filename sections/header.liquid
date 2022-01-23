@@ -1,0 +1,30 @@
+<header class="bg-white relative">
+    <div class="mx-auto px-4 sm:px-8">
+        <div class="flex justify-start">
+            {{
+                shop.name
+            }}
+        </div>
+
+        <div class="hidden flex space-x-10">
+            {% for link in section.settings.menu.links %}
+                    {{ link}}
+            {% endfor %}
+        </div>
+    </div>
+</header>
+
+
+{% schema %}
+{
+    "name": "Header",
+    "settings":[
+        {
+            "type":"link_list",
+            "id":"menu",
+            "default":"main-menu",
+            "label": "Heading Navigation "
+        }
+    ]
+}
+{% endschema %}
