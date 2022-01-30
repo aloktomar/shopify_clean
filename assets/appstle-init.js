@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0515/3200/5546/t/7/assets/appstle-subscription.js?v=1643331152");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0515/3200/5546/t/7/assets/appstle-subscription.js?v=1643527918");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -32,7 +32,7 @@
             "cartSubTotalSelector" : "",
             "cartLineItemPriceSelector": "",
         },
-        "enableCartWidgetFeature": false,
+        "enableCartWidgetFeature": "false",
         "useUrlWithCustomerId": false,
         "atcButtonSelector": "",
         "moneyFormat": "{% raw %}Rs. {{amount}}{% endraw %}",
@@ -74,6 +74,7 @@
         "appstlePlanId": 1,
         "showCheckoutSubscriptionBtn": true,
         "disableLoadingJquery": false,
+        "widgetEnabledOnSoldVariant": "false",
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
