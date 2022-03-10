@@ -4,7 +4,7 @@
       appstleLoadScript = function (src, callback) {
         var script = document.createElement("script");
         script.charset = "utf-8";
-        script.async = true;
+            script.async = true;
         script.src = src;
         script.onload = script.onreadystatechange = function () {
           if (!script.readyState || /loaded|complete/.test(script.readyState)) {
@@ -13,9 +13,11 @@
             callback && callback();
           }
         };
-        document.getElementsByTagName("head")[0].appendChild(script)
+            document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0515/3200/5546/t/7/assets/appstle-subscription.js?v=1646328323");
+
+
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0515/3200/5546/t/7/assets/appstle-subscription.js?v=1646905849");
 
       window.RS = Window.RS || {};
       RS.Config = {
