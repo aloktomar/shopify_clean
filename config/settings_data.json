@@ -1,6 +1,16 @@
 {
-  "current": "Default",
+  "current": {
+    "blocks": {
+      "714f9f93-f3ff-4899-bc18-4115ce440266": {
+        "type": "shopify:\/\/apps\/instagram-feed-story-tiktok\/blocks\/social-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
   }
 }
